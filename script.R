@@ -1,3 +1,7 @@
+#gh-pages
+#http://blog.jenkster.com/2016/02/git-for-static-sites.html
+#http://stackoverflow.com/questions/5542910/how-do-i-commit-changes-in-a-git-submodule
+
 library(plyr)
 library(extrafont)
 wd <- getwd()
