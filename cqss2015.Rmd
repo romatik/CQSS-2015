@@ -186,40 +186,40 @@ High negative responses of two dimensions ("Buddy or tutor system" and "Student 
 
 ##Helpfulness of units and people
 
-This section shows the respondents’ assessment of the helpfulness of different units and people involved in their master courses.  Similarly to the previous two sections, the responses show relatively high satisfaction – median values for all the dimensions are above 3, which is equivalent to “Somewhat satisfied” option in the survey. 
+This section shows the respondents’ assessment of the helpfulness of different units and people involved in their master courses.  Similarly to the previous two sections, the responses show relatively high satisfaction – median values for all the dimensions are above 3, which is equivalent to "Somewhat satisfied" option in the survey. 
 
-However, the responses are not fully coordinated, which is, again, similar to the two previous sections. In this section, “Buddy or tutor system” and “Student associations” are notable in the sense that they are the only dimensions here in which not all of the means fall above “Somewhat satisfied”, meaning that there were significant percentages of respondents who were unsatisfied with these units. The median values for these two dimensions are also noticeably lower than for the other six dimensions, which indicates that the organizing institutions should pay additional attention to the improvement of these components of their courses. 
+However, the responses are not fully coordinated, which is, again, similar to the two previous sections. In this section, "Buddy or tutor system" and "Student associations" are notable in the sense that they are the only dimensions here in which not all of the means fall above "Somewhat satisfied", meaning that there were significant percentages of respondents who were unsatisfied with these units. The median values for these two dimensions are also noticeably lower than for the other six dimensions, which indicates that the organizing institutions should pay additional attention to the improvement of these components of their courses. 
 
 
 ```{r helpfulness, fig.width=8.5}
 means_printing_plotly("B.2.1")
 ```
-When the responses are distributed according to the respondents’ year of enrolment, in the second graph, there are no special trends to be identified. The only exceptions are two dimensions – “Academic staff” and “Administrative staff”, where the trend similar to the previous two sections is noticeable. In these two dimensions, the least satisfied students are the ones in the first year of their master course, while the alumni are least unsatisfied. However, the differences between the different cohorts are not great – for both dimensions, there are 5% more of unsatisfied first year students than alumni. 
+When the responses are distributed according to the respondents’ year of enrolment, in the second graph, there are no special trends to be identified. The only exceptions are two dimensions – "Academic staff" and "Administrative staff", where the trend similar to the previous two sections is noticeable. In these two dimensions, the least satisfied students are the ones in the first year of their master course, while the alumni are least unsatisfied. However, the differences between the different cohorts are not great – for both dimensions, there are 5% more of unsatisfied first year students than alumni. 
 
 
 ```{r helpfulness_group, fig.height=10}
 questionprint_grouping("B.2.1", overall, grouping = z, grouping_levels = levels)
 ```
 
-While the smaller dissatisfaction rates among the alumni could be explained by the passage of time, which perhaps allowed them to put the helpfulness of “Academic staff” and “Administrative staff” into a new, more forgiving perspective, it seems that the lack of helpfulness from “Buddy or tutor system” and “Student associations” left a more lasting impression on the respondents. It is interesting to note that the percentages of respondents unsatisfied with the helpfulness of “Other students” are quite lower than the percentages of those unsatisfied with the two previously mentioned dimensions, which could mean that they had less access to the more formalized structures of student organizing, had less information about them, or simply found that these structures did not fit or represent their needs adequately. The results of our survey, however, allow us only to speculate on the reasons for these differences. 
+While the smaller dissatisfaction rates among the alumni could be explained by the passage of time, which perhaps allowed them to put the helpfulness of "Academic staff" and "Administrative staff" into a new, more forgiving perspective, it seems that the lack of helpfulness from "Buddy or tutor system" and "Student associations" left a more lasting impression on the respondents. It is interesting to note that the percentages of respondents unsatisfied with the helpfulness of "Other students" are quite lower than the percentages of those unsatisfied with the two previously mentioned dimensions, which could mean that they had less access to the more formalized structures of student organizing, had less information about them, or simply found that these structures did not fit or represent their needs adequately. The results of our survey, however, allow us only to speculate on the reasons for these differences. 
 
 
 ##Support received on various issues
 
-In this section, the respondents were asked to rate the supported the received in relation to “Financial issues”, “Health insurance”, and “Inappropriate conduct or sexual harassment issues”. Even though the median values for all three dimensions fall above 3.2, which is here equivalent to “Somewhat satisfied”, the distribution of means is varied. For “Inappropriate conduct or sexual harassment issues”, the median value is actually 3.6, and all the means cover a fairly small range, all falling within the 3th and 4th quartile. The means of the other two dimensions cover a much broader range, which means that the respondents’ satisfaction with these forms of support is much more varied and there are larger percentages of those who are unsatisfied. 
+In this section, the respondents were asked to rate the supported the received in relation to "Financial issues", "Health insurance", and "Inappropriate conduct or sexual harassment issues". Even though the median values for all three dimensions fall above 3.2, which is here equivalent to "Somewhat satisfied", the distribution of means is varied. For "Inappropriate conduct or sexual harassment issues", the median value is actually 3.6, and all the means cover a fairly small range, all falling within the 3th and 4th quartile. The means of the other two dimensions cover a much broader range, which means that the respondents’ satisfaction with these forms of support is much more varied and there are larger percentages of those who are unsatisfied. 
 
 ```{r support_on, fig.width=8.5}
 means_printing_plotly("B.2.2")
 ```
 
-In the distribution of the responses according to the respondents’ year of enrolment, only “Financial issues” show a trend. It is the same trend already identified in some of the previous sections, namely that the percentage of unsatisfied students falls with time. In this case, the 2012 cohort and the alumni show the same rate of satisfaction, smaller than among the 1st-year and 2nd-year students, which could be interpreted as due to the smaller relevance of “Financial issues” once the master course is completed. 
+In the distribution of the responses according to the respondents’ year of enrolment, only "Financial issues" show a trend. It is the same trend already identified in some of the previous sections, namely that the percentage of unsatisfied students falls with time. In this case, the 2012 cohort and the alumni show the same rate of satisfaction, smaller than among the 1st-year and 2nd-year students, which could be interpreted as due to the smaller relevance of "Financial issues" once the master course is completed. 
 
 ```{r support_on_group}
 questionprint_grouping("B.2.2", overall, grouping = z, grouping_levels = levels)
 
 ```
 
-Although the means for the “Inappropriate conduct or sexual harassment issues” dimension would indicate high satisfaction rates, the second graph shows that three out of four cohorts – 2014, 2012, and alumni – have significant percentages of respondents (11%) who are unsatisfied with the support received. For an issue like this one, these are high percentages, which should be taken into serious consideration and addressed by the participating institutions. 
+Although the means for the "Inappropriate conduct or sexual harassment issues" dimension would indicate high satisfaction rates, the second graph shows that three out of four cohorts – 2014, 2012, and alumni – have significant percentages of respondents (11%) who are unsatisfied with the support received. For an issue like this one, these are high percentages, which should be taken into serious consideration and addressed by the participating institutions. 
 
 #Assessment and Feedback
 
