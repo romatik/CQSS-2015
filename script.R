@@ -17,6 +17,8 @@ accent1 <- '#763A7A'
 accent2 <- '#F1684E'
 background_text <- '#F6F3EC'
 setwd(wd)
+
+
 rmarkdown::render('cqss2015.Rmd',
                   output_format = "html_document",
                   output_file =  paste("./gh-pages/index.html", sep=''))

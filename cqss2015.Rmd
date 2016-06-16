@@ -145,7 +145,7 @@ This might mean that for those aspects of students' experience approaches used b
 
 ```{r supp_before, fig.width=8.5}
 z <- gsub("2004|2005|2006|2007|2008|2009|2010|2011", "Alumni", overall$A.5.When.did.you.start.EM.Course._Response)
-levels <-c("Alumni", "2012", "2013", "2014") 
+levels <- c("Alumni", "2012", "2013", "2014") 
 z <- factor(z, levels = levels)
 means_printing_plotly("B.1.1")
 
@@ -186,7 +186,7 @@ High negative responses of two dimensions ("Buddy or tutor system" and "Student 
 
 ##Helpfulness of units and people
 
-This section shows the respondents’ assessment of the helpfulness of different units and people involved in their master courses.  Similarly to the previous two sections, the responses show relatively high satisfaction – median values for all the dimensions are above 3, which is equivalent to "Somewhat satisfied" option in the survey. 
+This section shows the respondents' assessment of the helpfulness of different units and people involved in their master courses.  Similarly to the previous two sections, the responses show relatively high satisfaction - median values for all the dimensions are above 3, which is equivalent to "Somewhat satisfied" option in the survey. 
 
 However, the responses are not fully coordinated, which is, again, similar to the two previous sections. In this section, "Buddy or tutor system" and "Student associations" are notable in the sense that they are the only dimensions here in which not all of the means fall above "Somewhat satisfied", meaning that there were significant percentages of respondents who were unsatisfied with these units. The median values for these two dimensions are also noticeably lower than for the other six dimensions, which indicates that the organizing institutions should pay additional attention to the improvement of these components of their courses. 
 
@@ -194,7 +194,7 @@ However, the responses are not fully coordinated, which is, again, similar to th
 ```{r helpfulness, fig.width=8.5}
 means_printing_plotly("B.2.1")
 ```
-When the responses are distributed according to the respondents’ year of enrolment, in the second graph, there are no special trends to be identified. The only exceptions are two dimensions – "Academic staff" and "Administrative staff", where the trend similar to the previous two sections is noticeable. In these two dimensions, the least satisfied students are the ones in the first year of their master course, while the alumni are least unsatisfied. However, the differences between the different cohorts are not great – for both dimensions, there are 5% more of unsatisfied first year students than alumni. 
+When the responses are distributed according to the respondents' year of enrolment, in the second graph, there are no special trends to be identified. The only exceptions are two dimensions - "Academic staff" and "Administrative staff", where the trend similar to the previous two sections is noticeable. In these two dimensions, the least satisfied students are the ones in the first year of their master course, while the alumni are least unsatisfied. However, the differences between the different cohorts are not great - for both dimensions, there are 5% more of unsatisfied first year students than alumni. 
 
 
 ```{r helpfulness_group, fig.height=10}
@@ -206,74 +206,109 @@ While the smaller dissatisfaction rates among the alumni could be explained by t
 
 ##Support received on various issues
 
-In this section, the respondents were asked to rate the supported the received in relation to "Financial issues", "Health insurance", and "Inappropriate conduct or sexual harassment issues". Even though the median values for all three dimensions fall above 3.2, which is here equivalent to "Somewhat satisfied", the distribution of means is varied. For "Inappropriate conduct or sexual harassment issues", the median value is actually 3.6, and all the means cover a fairly small range, all falling within the 3th and 4th quartile. The means of the other two dimensions cover a much broader range, which means that the respondents’ satisfaction with these forms of support is much more varied and there are larger percentages of those who are unsatisfied. 
+In this section, the respondents were asked to rate the supported the received in relation to "Financial issues", "Health insurance", and "Inappropriate conduct or sexual harassment issues". Even though the median values for all three dimensions fall above 3.2, which is here equivalent to "Somewhat satisfied", the distribution of means is varied. For "Inappropriate conduct or sexual harassment issues", the median value is actually 3.6, and all the means cover a fairly small range, all falling within the 3th and 4th quartile. The means of the other two dimensions cover a much broader range, which means that the respondents' satisfaction with these forms of support is much more varied and there are larger percentages of those who are unsatisfied. 
 
-```{r support_on, fig.width=8.5}
+```{r support_on, fig.width=8.5, fig.height=3}
 means_printing_plotly("B.2.2")
 ```
 
-In the distribution of the responses according to the respondents’ year of enrolment, only "Financial issues" show a trend. It is the same trend already identified in some of the previous sections, namely that the percentage of unsatisfied students falls with time. In this case, the 2012 cohort and the alumni show the same rate of satisfaction, smaller than among the 1st-year and 2nd-year students, which could be interpreted as due to the smaller relevance of "Financial issues" once the master course is completed. 
+In the distribution of the responses according to the respondents' year of enrolment, only "Financial issues" show a trend. It is the same trend already identified in some of the previous sections, namely that the percentage of unsatisfied students falls with time. In this case, the 2012 cohort and the alumni show the same rate of satisfaction, smaller than among the 1st-year and 2nd-year students, which could be interpreted as due to the smaller relevance of "Financial issues" once the master course is completed. 
 
 ```{r support_on_group}
 questionprint_grouping("B.2.2", overall, grouping = z, grouping_levels = levels)
 
 ```
 
-Although the means for the "Inappropriate conduct or sexual harassment issues" dimension would indicate high satisfaction rates, the second graph shows that three out of four cohorts – 2014, 2012, and alumni – have significant percentages of respondents (11%) who are unsatisfied with the support received. For an issue like this one, these are high percentages, which should be taken into serious consideration and addressed by the participating institutions. 
+Although the means for the "Inappropriate conduct or sexual harassment issues" dimension would indicate high satisfaction rates, the second graph shows that three out of four cohorts - 2014, 2012, and alumni - have significant percentages of respondents (11%) who are unsatisfied with the support received. For an issue like this one, these are high percentages, which should be taken into serious consideration and addressed by the participating institutions. 
 
 #Assessment and Feedback
 
 ##Module assessment
+In this section students were asked to evaluate aspects regarding the availability of course coordinators to discuss and follow up with unresolved issues, course feedback mechanisms, aspects connected to the evaluation of academic work and the provision of transcripts and degrees. 
+
 ```{r module_asses, fig.height=8, fig.width=8.5}
 means_printing_plotly("C.1")
 ```
+
+Respondents to the CQSS survey were asked to rate following two indicators regarding the availability of course coordinators: "The willingness and ability of the course coordinators to follow up on unresolved issues addressed" and "Availability of course coordinator to discuss questions or problems related to my study and mobility experience. Respondents across courses were generally satisfied with the availability and support of course coordinators. The mean across courses for these indicators were above 3.3, thus suggesting that students are overall "somewhat satisfied" with the involvement and availability of course coordinators. The spread of the distribution of means suggests that while students of most courses are content with the support received from their supervisor, few exceptions exist. The lowest course mean on the indicator "The willingness and ability of the course coordinators to follow up on unresolved issues addressed" is 1.8, which suggests that students of this course are very unsatisfied with the support received from course coordinator.
+
+Students are overall satisfied with the "Information provided about the type of degree to be awarded" (mean across courses = 3.16) and somewhat less satisfied with the information provided about the provision of certificates and transcripts (mean across courses = 3.07). Noteworthy, information about the provision of certificates and transcripts is evaluated separately in section 9.
+
+Indicators measuring the satisfaction of students with feedback mechanisms available at the level of the course received mixed scores. The indicator "Implementation of recommendations given by students to improve EM course experience" received a mean score of 2.86 and "Formalized system by university consortium for students to share opinions and feedback on course" received a score of 2.97. Significantly, one course obtained the very low mean 1.58 on the indicator "Implementation of recommendations given by students to improve EM course experience". 
+
+Similarly, indicators measuring the satisfaction of students with the evaluation of their academic work across universities suggest that there is room for improvement across most courses in integrating the evaluation systems across consortium universities and providing further feedback to students. The indicator "Feedback on evaluation of results and grades" obtained a mean score of 2.83, equal to the mean score of the indicator "Grade conversion across universities". The related indicators "Clarity of evaluation criteria across universities" and "Consistency of module assessment across universities" obtained equal means of 2.79. The highest means obtained on these four indicators were also overall lower than the highest scores on most indicators in the survey. 
+
 ```{r module_asses_group, fig.height=12}
 questionprint_grouping("C.1", overall, grouping = z, grouping_levels = levels)
-
 ```
+
+The indicators listed in the dimension "Module assessment" dimension seem to gather a higher overall number of negative evaluations from students. This is particularly applicable to the indicators measuring the academic evaluation received by students. While alumni seem to be overall more favorable when evaluating course on dimension "Module assessment", they too offer mixed ratings to courses on indicators such as "Clarity of evaluation criteria across universities", "Consistency of module assessment across universities", and "Feedback on evaluation results and grades". 
 
 #Teaching/Learning and Supervision
 
-##Teaching/Learning across different universities
-
 ##First supervisor
-```{r first_sup, fig.height=4, fig.width=8.5}
+
+This dimension aimed to gather student opinions on the quality of the interaction and support received from academic supervisors during the process of conducting their master thesis research and writing their master thesis. Information about both first and second supervisors is collected. Each of them is evaluated across two indicators "My supervisor was available for period meetings" and "My supervisor provided valuable advice during my thesis work". 
+
+```{r first_sup, fig.height=3, fig.width=8.5}
 means_printing_plotly("L.4")
 ```
-```{r first_sup_group, fig.height=4}
-questionprint_grouping("L.4", overall, grouping = z, grouping_levels = levels)
+
+Students across EMJMDs seem overall satisfied with the support received from their first supervisor, with mean values of 3.6 and above for both evaluated indicators. In addition, the highest mean received for a course on dimension "Teaching/learning and supervision" was the maximum obtainable mean 4.0. The lower end of the mean distribution suggests that supervision problems may be encountered across few courses. 
+
+```{r first_sup_group, fig.height=3.5}
+questionprint_grouping("L.4", overall, grouping = z, grouping_levels = c("Alumni", "2012", "2013"))
 ```
+
+The indicator "My supervisor provided valuable advice during my thesis work" has gathered a slightly higher rate of negative responses from alumni than enrolled students, in contrast to most trends noticed throughout the data.
 
 
 ##Second supervisor
 ```{r second_sup, fig.height=4, fig.width=8.5}
 means_printing_plotly("L.5")
 ```
+
+In addition to the indicators included in the evaluation of the first supervisor, the evaluation of the second supervisor includes an additional indicator "My second supervisor was available for consultation if the lead supervisor was unavailable". Similarly to the evaluation of the support received from first supervisors, students were overall content with the support received from second supervisors. However, the means across courses for indicators were slightly lower than for the equivalent indicators pertaining to first supervisors, but still above 3.48. The lower bound of the mean distribution also reached a smaller mean value (2.36) for second supervisor than first supervisors (2.64). 
+
 ```{r second_sup_group, fig.height=4}
-questionprint_grouping("L.5", overall, grouping = z, grouping_levels = levels)
-
+questionprint_grouping("L.5", overall, grouping = z, grouping_levels = c("Alumni", "2012", "2013"))
 ```
 
+Across indicators and across cohorts there is a slightly higher level of disatisfaction with the contributions of second supervisors. Again, this slightly increased level  of dissatisfaction is higher for alumni than current students.
 
-#Internship/Field Experience and Personal Development
 
-##Personal development
-```{r development, fig.height=8, fig.width=8.5}
-means_printing_plotly("L.6")
-```
-```{r development_group, fig.height=10}
-questionprint_grouping("L.6", overall, grouping = z, grouping_levels = levels)
-
-```
+#Internship Experience and Personal Development
 
 ##Internship experience
 ```{r internship, fig.width=8.5}
 means_printing_plotly("L.2.a")
 ```
-```{r internship_group, fig.height=10}
-questionprint_grouping("L.2.a", overall, grouping = z, grouping_levels = levels)
 
+EMJMD students and alumni are overall satisfied with the quality of their internship. The indicators in this section evaluated aspects such the relevance of the internship to the current career of respondents, the overall quality of the internship, the logistic support received during the internship experience, how valuable the internship was from respondent’s perspective, the quality of the supervision during internship, its duration and timing, and lastly, the relevance of the internship to the field of study. All indicators measured in this dimension obtained mean values across courses of 3.17 or above. Few outliers exist, as one course obtained a mean value of 2.3 on the indicator "Overall quality of the internship". 
+
+```{r internship_group, fig.height=10}
+questionprint_grouping("L.2.a", overall, grouping = z, grouping_levels = c("Alumni", "2012", "2013"))
 ```
+
+As noted before, students and alumni reported an overall high level of satisfaction with their internship experience. Students and alumni evaluated similarly internship related indicators. Notably, all alumni evaluated positively the value of their internship for their future career. 
+
+
+##Personal development
+
+Indicators in section 9.1. offer an insight into the opinions provided by an second year students and alumni of EMJMD programmes about their personal development, the support received relevant to their transition to the labor market and future educational programmes and their overall level of satisfaction with their EMJMD experience. 
+
+```{r development, fig.height=8, fig.width=8.5}
+means_printing_plotly("L.6")
+```
+
+Students and alumni of EMJMDs are overall highly satisfied with their personal development during their course and their ability to pursue desired career opportunities. The indicators "I am satisfied with my current position", "I believe my course helped me achieve my current position if employed or student", "I feel my Erasmus Mundus course prepared me for my career", " Rg ecourse has enabled academic and personal achievement beyond mt initial expertations", "My soft skills were improved by my course", "I feel optimistic about my opportunities for employment", and "I feel my Erasmus Mundus course has prepared me for my future chosen career" obtained mean values across course between 3.29 and 3.69. The indicators that received overall lower ratings are "My transcript and certificates were provided in a timely manner" with a mean value 3.36, but a wider spread of means, with the lowest mean value for a course of 2.36 and "I was well advised by my course on future education opportunities", with a mean value of 2.8. 
+
+```{r development_group, fig.height=10}
+questionprint_grouping("L.6", overall, grouping = z, grouping_levels = c("Alumni", "2012", "2013"))
+```
+
+The trends presented above are visible in the distribution of responses among EMJMD students and alumni. Alumni seem are slightly more satisfied with their personal development. Noteworthy, most recent graduates from EMJMDs show a slightly higher degree of concern regarding their opportunities for employment and are significantly less satisfied about the advice received from their courses on future educational opportunities, with 50% of 2012 respondents feeling either very unsatisfied or somewhat unsatisfied with the advice received on future education options.
+
 
 #Questions about EMA
 
