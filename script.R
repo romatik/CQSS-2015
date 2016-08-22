@@ -21,5 +21,5 @@ setwd(wd)
 
 rmarkdown::render('cqss2015.Rmd',
                   output_format = "html_document",
-                  output_file =  paste("./gh-pages/index.html", sep=''))
+                  output_file =  paste("./gh-pages/index.html", sep=''), encoding = "UTF-8")
 
