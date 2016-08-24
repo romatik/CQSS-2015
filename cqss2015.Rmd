@@ -48,7 +48,7 @@ The CQSS survey reached its second edition. The current edition of the survey br
 
 To this date and in addition to the current interactive report, two main products were created using the data collected from the 2015 wave of the CQSS survey. First, CQAB has compiled 78 customized course reports for all EMJMDs who obtained 10 or more responses. These reports were made available exclusively to course coordinators, student representatives of each program, and representatives of the European Commission. At the recommendation of EMJMD consortia, the customized course reports include comparative information about each course in relation to the other EMJMD courses that received a sufficient number of responses.
 
-Second, due to our responsibility towards the entire EMJMD community and the over 2000 students and alumni that fully completed our lengthy survey, the results emerging from the 2015 edition of the CQSS survey were made available to the broad public on an interactive online platform called Course Browser. By making this information public, CQAB does not aim at classifying or creating rankings among EMJMD courses, but to add transparency to our data analysis, and offer current and prospective students the ability to better prepare for what CQAB considers to be an invaluable educational experience. 
+Second, due to our responsibility towards the entire EMJMD community and the over 2000 students and alumni that fully completed our lengthy survey, the results emerging from the 2015 edition of the CQSS survey were made available to the broad public on an interactive online platform called [Course Browser](https://erasmusmundusassociation.shinyapps.io/Course_browser/). By making this information public, CQAB does not aim at classifying or creating rankings among EMJMD courses, but to add transparency to our data analysis, and offer current and prospective students the ability to better prepare for what CQAB considers to be an invaluable educational experience. 
 
 The work of CQAB would not exist and could not continue without the support of numerous committed volunteers spread across the world, driven by a strong motivation to help improve the quality of EMJMD courses. During the last 18 months, over 40 volunteers were involved with different stages of the CQSS project, from analyzing feedback received following the 2013 edition of the CQSS pilot survey, to coding qualitative data, and interpreting graphical information. CQAB is grateful, humbled and proud to have supported the CQSS project fully through volunteer work, and thus without external interference. Among the CQAB volunteers, one stands out: Mikhail Balyasin. Mikhail is responsible for the substantial improvements to the design and content of course reports, has skilfully generated the graphical information made available in the present report, the customized course reports and created the CQSS interactive online platform.
 
@@ -76,11 +76,12 @@ The philosophy of CQAB is to share as much information as possible about the CQS
 
 The current report is another way for us to share more information with stakeholders. The focus of this report is to provide an overall picture on how various services were rated by respondents to the 2015 wave of the CQSS survey across all EMJMD courses. For this reason each theme or section of the report is presented in three complementary ways:
 
-1. Interactive graphs which plot means for courses with 10 or more responses on that particular question. See below an explanation on how these means are calculated*. 
+1. Interactive graphs which plot means for courses with 10 or more responses on that particular question. See below an explanation on how these means are calculated. Graphs show boxplot distribution of means for 78 courses that satisfied the criterion of having 10 or more responses on that questions. 
 2. Graph illustrating the distribution of responses with respect to the year when respondents began their studies. Responses are distributed in 4 categories: students that began their studies in 2014, 2013, 2012, and all earlier years (labelled “Alumni”).
 3. Excerpts of relevant qualitative quotes that were prepared specifically for this report by CQAB’ qualitative team.
 
 CQSS survey respondents were asked to rate each indicator on a 4-point Likert-scale with following options:
+
 1. “Very unsatisfied”.
 2. “Somewhat unsatisfied”.
 3. “Somewhat satisfied”.
@@ -420,23 +421,24 @@ DT::datatable(election, options = list(dom = 't', searching = FALSE,
 
 This report has provided an overview of the results obtained in the 2015 edition of the CQSS for the 78 EMJMD courses for which CQAB gathered 10 or more respondents. It is important to note, once more, that any consideration of the results of this survey needs to take into account the spread of distribution of results. This is particularly the case with those dimensions where some of the courses fall well below or above the mean. These outliers point to a great diversity in certain aspects of the courses, which requires us to exercise caution when interpreting the survey’s results.Aside from providing a broad overview about the quality of services among EMJMD course, this report allows us to identify certain trends with important implications for program coordinators and participating institutions, but also for the Erasmus Mundus program as a whole. These trends are discussed below.
 
-**Differences in average satisfaction rates between current and former students**
+<h3>Differences in average satisfaction rates between current and former students</h3>
 
 Data collected on several dimensions shows that respondents’ satisfaction with various services and aspects of their EM experience increases over time. Alumni are generally more likely to evaluate a course positively. Alumni’s and second-year students’ higher satisfaction with the support provided regarding dimensions such as “Financial issues”, “Evaluation methods”, “Timetable”, or “Course content” indicate that the practices of providing information, especially for first-year students, can be improved. 
 
-**Low satisfaction with tutor/buddy systems and student associations**
+<h3>Low satisfaction with tutor/buddy systems and student associations</h3>
 
 The specific characteristics of being an Erasmus Mundus student, such as typically short stays at a university, mobility and diverse cultural backgrounds, can provide some explanation as to why the CQSS respondents have reported low satisfaction with the helpfulness and support received from tutor/buddy systems and student associations at the partner institutions. Even so, the more positive assessment of the helpfulness of other students indicates that the difficulties in communication lie in the structure or functioning of the students’ formal organizing and not in the students themselves. These results offer a chance to advocate for a solution which would be better tailored to the needs and circumstances of Erasmus Mundus students.
 
-**Low satisfaction with grade conversion and evaluation across universities**
+<h3>Low satisfaction with grade conversion and evaluation across universities</h3>
 
 Establishing consistent evaluation criteria and practices across universities from different educational systems is arguably one of the most challenging aspects of the EMJDM courses, but the results of this survey show that there is still much need for improvement on this matter. In particular, students seem to want more information and feedback on evaluation, with greater clarity and consistency.
 
-**Timely provision of diploma and transcripts**
+<h3>Timely provision of diploma and transcripts</h3>
 
 Survey respondents often indicated that diplomas and transcripts should be provided in a timely and systematized manner. While this remains a challenging tasks when universities in different countries need to cooperate, it is important for study certificated to be offered to students as needed. The start of a PhD and gaining employment may be jeopardized by heavy bureaucratic procedures associated with issuing academic certificates.
 
-**High overall satisfaction across multiple indicators and dimensions**
+<h3>High overall satisfaction across multiple indicators and dimensions</h3>
+
 Erasmus Mundus Joint Master Degrees pave the way for greater integration and cooperation among universities within Europe and beyond. This task is challenging but has proven to be overall very successful. Most indicators evaluated by the CQSS survey students are overall satisfied with their experience and the quality of the services they received.
 
 The Course Quality Advisory Board sees the CQSS survey as a tool to provide peer support among the Erasmus Mundus students and alumni. By preparing and conducting the survey, responding to it, and taking part in advocacy activities based on its results, former and current EMJMD student are taking responsibility for helping each other and using their Erasmus Mundus experience to the benefit of everyone involved in this program.
