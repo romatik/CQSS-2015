@@ -52,6 +52,8 @@ table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
 	max-width: 100%;
 	height: 400px;
 	max-height: 400px;
+	color: white;
+	font-size: 38px
 }
 
 #TOC {
