@@ -28,10 +28,10 @@ knitr::opts_chunk$set(echo=FALSE,
 $(window).scroll(function(e){ 
   var $el = $('#TOC'); 
   var isPositionFixed = ($el.css('position') == 'fixed');
-  if ($(this).scrollTop() > 422 && !isPositionFixed){ 
+  if ($(this).scrollTop() > 502 && !isPositionFixed){ 
     $('#TOC').css({'position': 'fixed', 'top': '0px', 'display': 'inline'}); 
   }
-  if ($(this).scrollTop() < 422 && isPositionFixed){
+  if ($(this).scrollTop() < 502 && isPositionFixed){
     $('#TOC').css({'display': 'none', 'position': 'static'}); 
   } 
 });
@@ -473,3 +473,9 @@ We would like to extend our gratitude to Pouneh Eftekhari and Felix Kwabena Donk
 You can learn more about us [here](https://docs.google.com/document/d/1ipTxCHaPQhMLQRiSiFwKR2I9Wkxtv2XZGCkCHLk9eFg/edit)!
  
 CQAB is grateful for the ongoing support received from the Erasmus Mundus Student and Alumni Association, and its leadership structures. We are indebted to representatives of the European Commission, and EMJMD course coordinators whom we consider allies in a joint quest of improving the excellence brand of EMJMDs.
+
+ <footer>
+  <p>Created by: Mikhail Balyasin</p>
+  <p>Contact information: <a href="mailto:mikhail.balyasin@gmail.com">e-mail</a>.</p>
+  <p>Code for the report is here: <a href = "https://github.com/romatik/CQSS-2015">github</a></p>
+</footer> 

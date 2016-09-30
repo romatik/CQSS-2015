@@ -49,6 +49,10 @@ table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
 	font-size: 0.8em !important;
 }
 
+body > div.container-fluid.main-container > div.row-fluid > div.toc-content.col-xs-12.col-sm-8.col-md-9{
+	padding-right: 0px;
+}
+
 .top-picture{
 	background-repeat: repeat;
 	background-color: #004E86;
@@ -56,7 +60,7 @@ table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
 	height: 400px;
 	max-height: 400px;
 	color: white;
-	font-size: 38px
+	font-size: 1em
 }
 
 #TOC {
