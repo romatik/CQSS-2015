@@ -40,6 +40,7 @@ $(window).scroll(function(e){
 
 <img src="CQAB_large.png" width="100%" align="center" style="margin: 0px 20px"/>
 
+<p align = "right">By: Mikhail Balyasin, Georgiana Mihut, Tijana Maksimovic, Hacer Tercanli, Rediet Tesfaye, Daniel Prasetyo</p>
 #Foreword
 
 The present report was compiled by the Course Quality Advisory Board (CQAB) of the Erasmus Mundus Student and Alumni Association (EMA), with the main purpose of providing an overview of the results of the 2015 edition of the Course Quality Student Services (CQSS) survey. The analysis included in this report offers stakeholders an overview of the quality of services provided by master courses under the Erasmus Mundus umbrella.
@@ -448,6 +449,10 @@ Georgiana Mihut is a Research Assistant at the Center for International Higher E
 
 PhD fellow In Educational Sciences at Aarhus University, Denmark, where she also graduated from the EMJMD European Master in Lifelong Learning: Policy and Management. She specializes in career guidance and counselling, with a particular interest in school-to-work transitions, career identity, and international mobility. In her PhD project, she is exploring the career development of international PhD students in technical and natural sciences in Denmark and how they experience the transition to a post-PhD career. 
 
+<h3>Hacer Tercanli</h3>
+
+Hacer Tercanli is a recent graduate of the Erasmus Mundus Masters course, Research and Innovation in Higher Education (MARIHE). Prior to MARIHE, she worked in public and private higher education institutions in Turkey and completed a Fulbright Master’s program in Applied Linguistics. During her studies she participated in the development projects that involved mapping digital learning environments in Germany and internationalization of higher education in Turkey. Among her professional interests are management of joint and double degree programs, quality assurance, and university-business cooperation.
+
 <h3>Rediet Tesfaye</h3>
 
 Rediet Tesfaye Abebe has taught in Arba Minch University and worked as an applications advisor. His disciplinary background is in Sociology, social work and higher education. He is currently doing doctoral studies in Administrative Sciences at the University of Tampere. He is also an auditor of quality systems at the Finnish Education Evaluation Council. His research interest focuses on the topics of quality assurance and governance in higher education.
@@ -473,9 +478,3 @@ We would like to extend our gratitude to Pouneh Eftekhari and Felix Kwabena Donk
 You can learn more about us [here](https://docs.google.com/document/d/1ipTxCHaPQhMLQRiSiFwKR2I9Wkxtv2XZGCkCHLk9eFg/edit)!
  
 CQAB is grateful for the ongoing support received from the Erasmus Mundus Student and Alumni Association, and its leadership structures. We are indebted to representatives of the European Commission, and EMJMD course coordinators whom we consider allies in a joint quest of improving the excellence brand of EMJMDs.
-
- <footer>
-  <p>Created by: Mikhail Balyasin</p>
-  <p>Contact information: <a href="mailto:mikhail.balyasin@gmail.com">e-mail</a>.</p>
-  <p>Code for the report is here: <a href = "https://github.com/romatik/CQSS-2015">github</a></p>
-</footer> 
